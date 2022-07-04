@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(159, 159, 161);
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 40%;
+}

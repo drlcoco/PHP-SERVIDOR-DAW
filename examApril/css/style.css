@@ -1,0 +1,93 @@
+
+body {    
+    background-color:rgb(231, 225, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+#contenido { 
+    height: 100vh;
+    min-height:600px;
+  }
+   
+  #contenido > div{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    text-align: center;
+  }
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: #fff;
+	border: 1px solid rgb(180, 180, 159);
+}
+
+form label{
+	text-align: left;
+	width: 100%;
+	display:inline-block;
+	color:rgb(130, 121, 71);
+	text-decoration:none;
+}
+
+form input[type="text"], form input[type="password"], form textarea, .caja{
+	width:200px;
+	padding:3px 10px;
+	border:1px solid rgb(186, 181, 154);
+	border-radius:3px;
+	margin:8px 0;
+	display:inline-block;
+    background-color: #fff;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(130, 121, 71);
+	border-radius:5px;
+	display:block;
+	background-color:rgb(164, 156, 90);
+	color:white;
+} 
+
+form input[type="submit"]:hover, button:hover{
+	cursor:pointer;
+	background-color:rgb(186, 177, 97);
+}
+
+textarea{
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	height: 70px;
+}
+
+h1{
+	color:rgb(136, 121, 72);
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.warning{
+	color:red;
+}
+
+.button{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(130, 121, 71);
+	border-radius:5px;
+	display:block;
+	background-color:rgb(164, 156, 90);
+	color:white;
+	text-decoration: none;
+}
